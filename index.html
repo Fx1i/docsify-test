@@ -21,9 +21,21 @@
       name: '帮助文档',
       repo: 'https://github.com/Fx1i/docsify-test',
       homepage: '/zh-cn/README.md',
+      onlyCover: true,
       loadSidebar: true,
       auto2top: true,
-      search: 'auto',
+      search: {
+        paths: 'auto',
+        placeholder: {
+          '/zh-cn/': '搜索',
+          '/en-us/': 'Type to search'
+        },
+        noData: {
+          '/zh-cn/': '找不到结果',
+          '/': 'No Results'
+        },
+        depth: 2,
+      },
       coverpage: true,
       loadNavbar: true
     }

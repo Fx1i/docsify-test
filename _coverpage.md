@@ -9,5 +9,5 @@
 - 众多主题
 
 
-[English](en-us/README.md)
-[中文](zh-cn/README.md)
+[English](/en-us/)
+[中文](/zh-cn/)
