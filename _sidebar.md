@@ -1,2 +1,2 @@
-- [快速开始](docs/quick_start.md)
-- [配置](docs/config.md)
+* [首页](/)
+* [指引](/zh-cn/guide.md "世界上最好的指引")
